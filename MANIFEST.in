@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cyclecount *.css
+recursive-include cyclecount *.csv
+recursive-include cyclecount *.html
+recursive-include cyclecount *.ico
+recursive-include cyclecount *.js
+recursive-include cyclecount *.json
+recursive-include cyclecount *.md
+recursive-include cyclecount *.png
+recursive-include cyclecount *.py
+recursive-include cyclecount *.svg
+recursive-include cyclecount *.txt
+recursive-exclude cyclecount *.pyc

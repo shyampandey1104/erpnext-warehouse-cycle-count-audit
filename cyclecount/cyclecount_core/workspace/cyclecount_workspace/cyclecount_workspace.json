@@ -1,30 +1,104 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Erpnext Warehouse Cycle Count Audit Workspace\",\"level\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Erpnext Warehouse Cycle Count Audit Volume Trend",
+   "label": "Erpnext Warehouse Cycle Count Audit Volume Trend"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Erpnext Warehouse Cycle Count Audit Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Erpnext Warehouse Cycle Count Audit Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Compliance\"}}]",
  "creation": "2026-04-01 10:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "octicon octicon-book",
+ "icon": "octicon octicon-package",
  "idx": 0,
  "is_hidden": 0,
  "label": "Erpnext Warehouse Cycle Count Audit",
- "links": [],
+ "links": [
+  {
+   "label": "Operational Documents",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Warehouse Cycle Count Audit Entry",
+   "label": "Erpnext Warehouse Cycle Count Audit Entry",
+   "link_to": "Erpnext Warehouse Cycle Count Audit Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Audit & Reports",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Warehouse Cycle Count Audit Audit Log",
+   "label": "Erpnext Warehouse Cycle Count Audit Audit Log",
+   "link_to": "Erpnext Warehouse Cycle Count Audit Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Erpnext Warehouse Cycle Count Audit Summary",
+   "link_to": "Erpnext Warehouse Cycle Count Audit Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Warehouse Cycle Count Audit Settings",
+   "label": "Erpnext Warehouse Cycle Count Audit Settings",
+   "link_to": "Erpnext Warehouse Cycle Count Audit Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
  "modified": "2026-04-01 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Cyclecount_Core",
  "name": "Erpnext Warehouse Cycle Count Audit",
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Erpnext Warehouse Cycle Count Audit Entry",
+   "label": "Recent Erpnext Warehouse Cycle Count Audit Entries"
+  }
+ ],
  "roles": [
   {
    "role": "System Manager"
+  },
+  {
+   "role": "Accounts User"
   }
  ],
  "sequence_id": 1,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Erpnext Warehouse Cycle Count Audit Entrys",
+   "link_to": "Erpnext Warehouse Cycle Count Audit Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "System Settings",
+   "link_to": "Erpnext Warehouse Cycle Count Audit Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Compliance Digest",
+   "link_to": "Erpnext Warehouse Cycle Count Audit Summary",
+   "type": "Report"
+  }
+ ],
  "title": "Erpnext Warehouse Cycle Count Audit"
 }
